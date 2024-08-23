@@ -66,7 +66,7 @@ export default function Home() {
 
 
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden text-white">
       <div className="w-screen h-screen overflow-hidden bg-sky-300 relative flex ">
         <div className="fixed inset-0 bg-black z-40 opacity-10">
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
 
         <div className="flex justify-center text-center sm:text-left items-center absolute inset-0 z-50">
           <div className="flex flex-col fade-in justify-center items-center">
-            <h3 className="font-medium text-lg">Welcome to</h3>
+            <h3 className="font-medium text-xl">Welcome to</h3>
             <h1 className="text-7xl font-bold">Studio Ghibli</h1>
           </div>
         </div>

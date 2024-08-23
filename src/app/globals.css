@@ -92,16 +92,3 @@ body {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
 }
-
-.sticky-container {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.movie-grid {
-  padding-top: 100vh; /* Push the grid content down, so it starts below the sticky section */
-  z-index: 10; /* Ensure the grid is above the sticky background */
-}
- 
